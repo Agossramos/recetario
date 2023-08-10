@@ -5,7 +5,7 @@ background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(192,238,227,1) 1
 h1{
     text-align: center;
     padding: 0px 0px 20px;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
 }
 nav{
     text-align:end;
@@ -21,9 +21,9 @@ nav{
     transform: scale(1.1);
 }
 .nav-links a{
-    background-color:mediumturquoise;
+    background-color:rgb(150, 243, 243);
     padding: 7px;
-    
+    border-radius: 20px;
 }
 body{
     background-color: tomato;
