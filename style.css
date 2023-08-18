@@ -27,7 +27,7 @@ nav{
     text-decoration: none;
 }
 body{
-    background-color: tomato;
+    background-color: rgba(255, 99, 71, 0.801);
 }
 main{
     background-color: beige;
@@ -78,6 +78,11 @@ div p{
 footer{
     background: rgb(187,245,243);
     background: linear-gradient(90deg, rgba(187,245,243,1) 27%, rgba(145,199,241,1) 100%);
+    display: flex;
+    justify-content:space-around;
+    margin: 25px 0px;
+}
+.foot{
     text-align: center;
 }
 #leyenda{
@@ -85,4 +90,11 @@ footer{
 }
 .leyenda{
     font-size: small;
+}
+.redes{
+    margin:90px 0px ;
+}
+.redes a{
+    padding: 10px;
+    color:black;
 }
