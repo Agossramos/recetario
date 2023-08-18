@@ -31,6 +31,7 @@ body{
 }
 main{
     background-color: beige;
+    min-height: 700px;
 }
 .mainreceta{
     background-color: beige;
@@ -69,6 +70,10 @@ button{
 }
 button a{
     text-decoration: none;
+}
+div p{
+    padding: 10px 30px;  
+    font-size:large;
 }
 footer{
     background: rgb(187,245,243);
