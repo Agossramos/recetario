@@ -1,6 +1,6 @@
 header{
     background: rgb(34,193,195);
-background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(192,238,227,1) 100%);
+    background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(192,238,227,1) 100%);
 }
 h1{
     text-align: center;
@@ -24,17 +24,23 @@ nav{
     background-color:rgb(150, 243, 243);
     padding: 7px;
     border-radius: 20px;
+    text-decoration: none;
 }
 body{
     background-color: tomato;
 }
 main{
     background-color: beige;
+}
+.mainreceta{
+    background-color: beige;
     display: flex;
-
 }
 h2{
     padding: 20px 30px; 
+}
+.titulo{
+    padding:30px;
 }
 p{
     font-size:x-large;
@@ -42,8 +48,27 @@ p{
 .lista,ol{
     padding:0px 50px;
 }
+.imagenindex{
+    padding:10px 100px 20px 100px;
+    display: flex;
+    justify-content: center;
+}
 .imagen{
     padding:50px 100px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding:5px 10px 30px 10px;
+}
+button{
+    font-size: large;
+    padding:8px;
+    background-color:rgb(150, 243, 243);
+    
+}
+button a{
+    text-decoration: none;
 }
 footer{
     background: rgb(187,245,243);
