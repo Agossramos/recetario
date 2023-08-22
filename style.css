@@ -75,6 +75,17 @@ div p{
     padding: 10px 30px;  
     font-size:large;
 }
+.lisucursales{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+}
+.sucursales{
+    padding: 0px 20px 0px 20px;
+}
+iframe{
+    padding:10px
+}
 footer{
     background: rgb(187,245,243);
     background: linear-gradient(90deg, rgba(187,245,243,1) 27%, rgba(145,199,241,1) 100%);
