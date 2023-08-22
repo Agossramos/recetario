@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recetas de cocina</title>
-    <link rel="icon" type="image/png" href="assets/images/35333271-icono-con-abstracta-gorro-de-cocinero-y-el-corazón-rojo-sobre-fondo-blanco.jpg" />
+    <link rel="icon" type="image/png"
+        href="assets/images/35333271-icono-con-abstracta-gorro-de-cocinero-y-el-corazón-rojo-sobre-fondo-blanco.jpg" />
     <link rel="stylesheet" href="../../style.css">
     <script src="https://kit.fontawesome.com/ae9c864a59.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <nav>
@@ -22,8 +25,59 @@
         <h1><b>Recetas de cocina</b></h1>
     </header>
     <main>
-        <form>
-            
+        <h2>FORMULARIO DE REGISTRO</h2>
+        <form action="../../show_data.html" target="_blank">
+            <div>
+                <label name="nombre">Nombre: </label>
+                <input type="text" name="nombre" value="" placeholder="Ingrese su nombre aquí...">
+            </div>
+            <div>
+                <label name="apellido">Apellido: </label>
+                <input type="text" name="apellido" value="" placeholder="Ingrese su nombre aquí...">
+            </div>
+            <div>
+                <label name="direccion">Dirección: </label>
+                <input type="text" name="direccion" value="" placeholder="Ingrese su nombre aquí...">
+            </div>
+            <div>
+                <label name="ciudad">Ciudad: </label>
+                <input type="text" name="ciudad" value="" placeholder="Ingrese su nombre aquí...">
+            </div>
+            <div>
+                <label name="codigopostal">Código postal: </label>
+                <input type="text" name="codigopostal" value="" placeholder="Ingrese su nombre aquí...">
+            </div>
+            <div>
+                <label name="fechanacimiento">Fecha de nacimiento (mm/dd/yyyy): </label>
+                <input type="date" name="fechanacimiento" value="">
+            </div>
+            <div>
+                <label name="genero">Género: </label>
+                <input type="radio" id="hombre" name="genero" value="Hombre" checked>
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="mujer" name="genero" value="Mujer">
+                <label for="mujer">Mujer</label>
+                <input type="radio" id="otro" name="genero" value="Otro">
+                <label for="otro">Otro</label>
+            </div>
+            <div>
+                <label name="estudios">Estudios: </label>
+                <input type="checkbox" id="primarios" name="estudios" value="Primarios" checked>
+                <label for="primarios">Primarios</label>
+                <input type="checkbox" id="secundarios" name="estudios" value="Secundarios">
+                <label name="secundarios">Secundarios</label>
+                <input type="checkbox" id="terciarios" name="estudios" value="Terciarios">
+                <label name="terciarios">Terciarios</label>
+                <input type="checkbox" id="universitarios" name="estudios" value="Universitarios">
+                <label name="universitarios">Universitarios</label>
+                <input type="checkbox" id="otro" name="estudios" value="Otro">
+                <label name="otro">Otro</label>
+            </div>
+            <input class="submit" type="submit" value="Enviar">
+
+            <div class="leyendaform">
+                Si usted hace click en el botón "Enviar", la información sera enviada a la página "show_data.html".
+            </div>
         </form>
     </main>
     <footer>
