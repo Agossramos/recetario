@@ -86,8 +86,23 @@ div p{
 iframe{
     padding:10px
 }
+.formulario{
+    /* display: flex; */
+    justify-content: center;
+    
+}
+.formulario h2{
+    text-align: center;
+}
 form{
-    margin:30px;
+    margin:auto;
+    display: block;
+    background-color:lightgray;
+    width: 50%;
+}
+form input{
+    padding:2px;
+    width: 150px;
 }
 form div{
     padding:10px;
@@ -123,4 +138,8 @@ footer{
 .redes a{
     padding: 10px;
     color:black;
+}
+
+.estudios{
+    display:flex;
 }

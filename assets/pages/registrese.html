@@ -25,10 +25,10 @@
         </nav>
         <h1><b>Recetas de cocina</b></h1>
     </header>
-    <main>
-        <h2>FORMULARIO DE REGISTRO</h2>
-        <form action="../../show_data.html" target="_blank">
-            <div>
+    <main class="formulario">
+        <h2>FORMULARIO DE REGISTRO</h2> 
+        <form action="../../show_data.html" target="_blank" class="formulario__form">
+            <div class="formulario__form__label">
                 <label name="nombre">Nombre: </label>
                 <input type="text" name="nombre" value="" placeholder="Ingrese su nombre aquí...">
             </div>
@@ -61,8 +61,8 @@
                 <input type="radio" id="otro" name="genero" value="Otro">
                 <label for="otro">Otro</label>
             </div>
-            <div>
-                <label name="estudios">Estudios: </label>
+            <div class="estudios">
+                <strong>Estudios: </strong>
                 <input type="checkbox" id="primarios" name="estudios" value="Primarios" checked>
                 <label for="primarios">Primarios</label>
                 <input type="checkbox" id="secundarios" name="estudios" value="Secundarios">
